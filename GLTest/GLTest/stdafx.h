@@ -10,6 +10,12 @@
 #include <stdio.h>
 #include <tchar.h>
 
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
+
+#include <iostream>
+using namespace std;
+
 
 
 // TODO:  在此处引用程序需要的其他头文件

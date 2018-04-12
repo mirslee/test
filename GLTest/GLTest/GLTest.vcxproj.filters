@@ -24,6 +24,12 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="IPipeLine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HelloTriangles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -33,6 +39,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloTriangles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IPipeLine.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
