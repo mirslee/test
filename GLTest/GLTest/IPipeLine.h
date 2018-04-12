@@ -3,6 +3,7 @@
 
 enum PipeLineType {
 	PipeLine_HelloTriangles,
+	PipeLine_GlslTest,
 };
 
 class IPipeLine

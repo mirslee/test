@@ -49,7 +49,10 @@ int main()
 		return -1;
 	}
 
-	IPipeLine* pPipeline = IPipeLine::createPipeLine(PipeLine_HelloTriangles);
+	IPipeLine* pPipeline = IPipeLine::createPipeLine(
+		//PipeLine_HelloTriangles
+		PipeLine_GlslTest
+	);
 	if (pPipeline)
 	{
 		pPipeline->prepare();

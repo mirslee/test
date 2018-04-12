@@ -24,10 +24,16 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="HelloTriangles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="IPipeLine.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="HelloTriangles.h">
+    <ClInclude Include="glsltest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -45,6 +51,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="IPipeLine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="glsltest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
