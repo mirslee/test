@@ -2,6 +2,7 @@
 #include "IPipeLine.h"
 #include "HelloTriangles.h"
 #include "GlslTest.h"
+#include "TextureTest.h"
 
 
 IPipeLine* IPipeLine::createPipeLine(PipeLineType type)
@@ -12,6 +13,8 @@ IPipeLine* IPipeLine::createPipeLine(PipeLineType type)
 		return new HelloTriangles();
 	case PipeLine_GlslTest:
 		return new GlslTest();
+	case PipeLine_TextureTest:
+		return new TextureTest();
 	default:
 		return nullptr;
 	}

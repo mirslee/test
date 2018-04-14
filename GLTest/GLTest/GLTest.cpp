@@ -30,6 +30,7 @@ int main()
 	trans = glm::scale(trans, glm::vec3(0.5, 0.5, 0.5));
 
 
+
 	// glfw: initialize and configure
 	// ------------------------------
 	glfwInit();
@@ -63,7 +64,8 @@ int main()
 
 	IPipeLine* pPipeline = IPipeLine::createPipeLine(
 		//PipeLine_HelloTriangles
-		PipeLine_GlslTest
+		//PipeLine_GlslTest
+		PipeLine_TextureTest
 	);
 	if (pPipeline)
 	{

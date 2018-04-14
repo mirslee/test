@@ -9,6 +9,8 @@ GlslTest::GlslTest()
 
 GlslTest::~GlslTest()
 {
+	glDeleteVertexArrays(1, &VAO);
+	glDeleteBuffers(1, &VBO);
 }
 
 void GlslTest::prepare()

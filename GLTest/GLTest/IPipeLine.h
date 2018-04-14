@@ -4,6 +4,7 @@
 enum PipeLineType {
 	PipeLine_HelloTriangles,
 	PipeLine_GlslTest,
+	PipeLine_TextureTest,
 };
 
 class IPipeLine
