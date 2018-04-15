@@ -19,6 +19,5 @@ private:
 	unsigned int VBO; //»º³åÇøid
 	unsigned int EBO; //»º³åÇøid
 	unsigned int texture; //ÎÆÀíid
-	Shader* pShader;
 };
 

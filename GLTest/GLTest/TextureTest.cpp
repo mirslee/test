@@ -19,7 +19,6 @@ TextureTest::~TextureTest()
 	glDeleteBuffers(1, &VBO);
 	glDeleteBuffers(1, &EBO);
 	glDeleteTextures(1, &texture);
-	delete pShader;
 }
 
 void TextureTest::prepare()
@@ -126,6 +125,7 @@ void TextureTest::prepare()
 	glDeleteShader(vertexShader);//链接完着色器后可以删掉创建的着色器了
 	glDeleteShader(fragmentShader);//链接完着色器后可以删掉创建的着色器了
 
+	//纹理创建
 	glGenTextures(1, &texture);
 	glBindTexture(GL_TEXTURE_2D, texture);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
