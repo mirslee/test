@@ -140,6 +140,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MediaReader.h" />
     <ClInclude Include="MyThread.h" />
     <ClInclude Include="ReadThread.h" />
     <ClInclude Include="stdafx.h" />
@@ -147,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ffmpegtest.cpp" />
+    <ClCompile Include="MediaReader.cpp" />
     <ClCompile Include="MyThread.cpp" />
     <ClCompile Include="ReadThread.cpp" />
     <ClCompile Include="stdafx.cpp">
